@@ -1,0 +1,13 @@
+C:\Apple\Himalaya\tenant-base\Tenant.Api.Base\bin\Debug\netcoreapp7.0\Tenant.API.Base.deps.json
+C:\Apple\Himalaya\tenant-base\Tenant.Api.Base\bin\Debug\netcoreapp7.0\Tenant.API.Base.dll
+C:\Apple\Himalaya\tenant-base\Tenant.Api.Base\bin\Debug\netcoreapp7.0\Tenant.API.Base.pdb
+C:\Apple\Himalaya\tenant-base\Tenant.Api.Base\obj\Debug\netcoreapp7.0\Tenant.API.Base.csproj.AssemblyReference.cache
+C:\Apple\Himalaya\tenant-base\Tenant.Api.Base\obj\Debug\netcoreapp7.0\Tenant.API.Base.GeneratedMSBuildEditorConfig.editorconfig
+C:\Apple\Himalaya\tenant-base\Tenant.Api.Base\obj\Debug\netcoreapp7.0\Tenant.API.Base.AssemblyInfoInputs.cache
+C:\Apple\Himalaya\tenant-base\Tenant.Api.Base\obj\Debug\netcoreapp7.0\Tenant.API.Base.AssemblyInfo.cs
+C:\Apple\Himalaya\tenant-base\Tenant.Api.Base\obj\Debug\netcoreapp7.0\Tenant.API.Base.csproj.CoreCompileInputs.cache
+C:\Apple\Himalaya\tenant-base\Tenant.Api.Base\obj\Debug\netcoreapp7.0\Tenant.API.Base.sourcelink.json
+C:\Apple\Himalaya\tenant-base\Tenant.Api.Base\obj\Debug\netcoreapp7.0\Tenant.API.Base.dll
+C:\Apple\Himalaya\tenant-base\Tenant.Api.Base\obj\Debug\netcoreapp7.0\refint\Tenant.API.Base.dll
+C:\Apple\Himalaya\tenant-base\Tenant.Api.Base\obj\Debug\netcoreapp7.0\Tenant.API.Base.pdb
+C:\Apple\Himalaya\tenant-base\Tenant.Api.Base\obj\Debug\netcoreapp7.0\ref\Tenant.API.Base.dll

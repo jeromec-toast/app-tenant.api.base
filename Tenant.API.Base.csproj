@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Tenant.API.Base</RootNamespace>
+    <PackageVersion>1.12</PackageVersion>
+    <Authors>Tenant Inc</Authors>
+    <UserSecretsId>270b7dd5-a375-47cc-9a05-443430595dda</UserSecretsId>
+    <ReleaseVersion>1.12</ReleaseVersion>
+    <SynchReleaseVersion>false</SynchReleaseVersion>
+    <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+    <!--Change this version according to the source version-->
+    <FileVersion>1.24.0.0</FileVersion>
+    <AssemblyVersion>1.24.0.0</AssemblyVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath></OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.11" />
+    <PackageReference Include="Magick.NET-Q16-HDRI-AnyCPU" Version="13.6.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.1.0" />
+    <PackageReference Include="RestSharp" Version="112.1.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="8.2.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="8.0.10" Condition="'$(Configuration)' == 'Debug'" />
+    <PackageReference Include="CorrelationId" Version="3.0.1" />
+    <PackageReference Include="iTextSharp.LGPLv2.Core" Version="1.8.0" />
+    <PackageReference Include="Rotativa.AspNetCore" Version="1.2.0" />
+    <PackageReference Include="UnitsNet" Version="4.130.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Service\" />
+    <Folder Include="Model\Security\" />
+    <Folder Include="Filter\" />
+    <Folder Include="Startup\" />
+    <Folder Include="Factory\" />
+    <Folder Include="Email\" />
+    <Folder Include="Adapter\" />
+    <Folder Include="Attribute\" />
+    <Folder Include="Util\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Attribute\PatchReplaceIgnore.cs" />
+  </ItemGroup>
+</Project>
